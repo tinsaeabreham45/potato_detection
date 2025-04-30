@@ -1,6 +1,6 @@
 # Potato Defect Detection using YOLOv11s
 
-This project demonstrates the process of training a YOLOv11s object detection model to identify different types of potatoes, including damaged, defected, and sprouted ones, using a custom dataset. The training and prediction are performed using the Ultralytics YOLO library, leveraging a GPU environment (like Google Colab).
+This project demonstrates the process of training a YOLOv11s object detection model to identify different types of potatoes, including damaged, defected, and sprouted ones, using a custom dataset. The training and prediction are performed using the Ultralytics YOLO library, leveraging a GPU environment (Colab).
 
 ## Project Overview
 
