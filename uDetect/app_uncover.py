@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import os
 
 # Load the YOLO model
-model = YOLO("uncovered_potato.pt")
+model = YOLO("uDetect/uncovered_potato.pt")
 
 def predict_potato(image):
     # Convert Gradio image (PIL format) to OpenCV format
@@ -43,4 +43,4 @@ iface = gr.Interface(
 
 # Launch the app
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)

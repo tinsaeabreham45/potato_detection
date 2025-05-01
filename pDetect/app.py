@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 from PIL import Image
 
-def detect_and_annotate_potato(image, model_path="my_model.pt", confidence_threshold=0.4):
+def detect_and_annotate_potato(image, model_path="pDetect/my_model.pt", confidence_threshold=0.4):
     # Load the YOLO model
     model = YOLO(model_path)
 
@@ -61,6 +61,6 @@ demo = gr.Interface(
     examples=["images/test1.jpg"]
 )
 
-# Launch the app (for local testing)
+
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
