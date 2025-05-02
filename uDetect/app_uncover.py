@@ -4,6 +4,12 @@ import numpy as np
 from ultralytics import YOLO
 import os
 
+
+"""
+
+this script is for peeled potato detection using YOLOv8 model
+"""
+
 # Load the YOLO model
 model = YOLO("uDetect/uncovered_potato.pt")
 
